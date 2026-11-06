@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Ask Your Question</title>
+
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #eef2f7;
+        margin: 0;
+        padding: 0;
+      }
+
+      .container {
+        width: 400px;
+        margin: 100px auto;
+        background-color: white;
+        padding: 30px;
+        border-radius: 12px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+        text-align: center;
+      }
+
+      h2 {
+        color: #2563eb;
+        margin-bottom: 25px;
+      }
+
+      input[type="text"] {
+        width: 100%;
+        padding: 12px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        box-sizing: border-box;
+        font-size: 16px;
+      }
+
+      input[type="text"]:focus {
+        outline: none;
+        border-color: #2563eb;
+      }
+
+      button {
+        width: 100%;
+        padding: 12px;
+        background-color: #2563eb;
+        color: white;
+        border: none;
+        border-radius: 6px;
+        font-size: 16px;
+        cursor: pointer;
+      }
+
+      button:hover {
+        background-color: #1d4ed8;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <h2>Ask Your Question</h2>
+
+      <form action="amitava" method="get">
+        <input
+          type="text"
+          name="question"
+          placeholder="Enter your question here..."
+          required
+        />
+
+        <button type="submit">Submit Question</button>
+      </form>
+    </div>
+  </body>
+</html>
